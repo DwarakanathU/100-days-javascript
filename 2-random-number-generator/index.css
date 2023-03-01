@@ -1,0 +1,40 @@
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color:
+        #01538d;
+    color: aliceblue;
+    width: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+     */
+    align-items: center;
+}
+
+.count {
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr {
+    width: 90%;
+}
+
+button {
+    border: none;
+    background-color: tomato;
+    color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 2px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
